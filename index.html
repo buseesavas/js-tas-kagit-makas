@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taş Kağıt Makas</title>
+    <link rel="stylesheet" href="assets/css/oyun.css" />
+    <script src="assets/js/oyun.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <div class="skor">
+          <p>SCORE<span id="oyuncuSkor">0</span></p>
+        </div>
+      </div>
+      <div class="secimler">
+        <div class="oyuncuHamlesi">
+          <button class="kagitBtn" id="kagitBtn">
+            <img src="assets/images/kagit-img.svg" alt="" />
+          </button>
+          <button class="makasBtn" id="makasBtn">
+            <img src="assets/images/makas-img.svg" alt="" />
+          </button>
+          <button class="tasBtn" id="tasBtn">
+            <img src="assets/images/tas-img.svg" alt="" />
+          </button>
+        </div>
+        <div class="bilgisayar">
+          <p><span id="bilgisayarSecimiTxt"></span></p>
+        </div>
+      </div>
+      <div class="secilenler">
+        <div class="oyuncuSecim">
+        </div>
+        <div class="bilgisayarSecim">
+        </div>
+      </div>
+      <div class="kazananSkorBoxes">
+        <div class="kazananKisiBox">
+          <p><span class="kazanan" id="kazanan"></span></p>
+        </div>
+        <div class="skorSifirla">
+          <button id="sifirlaBtn">PLAY AGAIN</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
